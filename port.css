@@ -1,0 +1,80 @@
+.bodyclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+  .Header{
+    background: linear-gradient( to bottom,#b921ac, #c70721)
+  }
+  .Header:hover{
+    background: linear-gradient( to bottom,#c70721, #b921ac)
+  }
+  
+  .Skills-list li {
+      list-style-type: none;
+      flex: content;
+      flex-direction: row;
+      background: white;
+      padding: 10px 25px;
+      border-radius: 10px;
+      margin: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+      background: linear-gradient(#1505ee,#05f010);
+  }
+  .Skills-list li:hover{
+    background: linear-gradient(#05f010,#1505ee);
+  }
+  }
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+section {
+    text-align: center;
+    width: 80%;
+    max-width: 600px; 
+    margin-bottom: 20px;
+}
+.circular-image {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    border-radius: 60%;
+    overflow: hidden;
+    margin: 0 auto 20px; /* Center the image horizontally and add bottom margin */
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form input[type="text"]{
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.form input[type="email"]{
+    width: auto;
+    padding: 10px;
+    border: 1px solid #a89c9c;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.form button{
+    background: linear-gradient(#d808bc,#1120f1);
+    color: #fff;
+    width: 40%;
+    height: 40%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
